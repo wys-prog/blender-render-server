@@ -1,0 +1,4 @@
+.wys/
+*.DS_Store
+Rendered/
+tester.py
