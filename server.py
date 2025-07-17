@@ -248,8 +248,5 @@ def render_worker():
 for _ in range(MAX_CONCURRENT_JOBS):
     threading.Thread(target=render_worker, daemon=True).start()
 
-
-
-
 if __name__ == "__main__":
     start_server()
